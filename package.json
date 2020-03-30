@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "bin":{
+  "bin": {
     "mei": "./bin/index.js"
   },
   "scripts": {
@@ -11,5 +11,8 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "nunjucks": "^3.2.1"
+  }
 }
